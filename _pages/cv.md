@@ -9,56 +9,50 @@ redirect_from:
 
 {% include base_path %}
 
+**Lei Zhang**  
+(781) 526-1296 | [zhang.l5@northeastern.edu](mailto:zhang.l5@northeastern.edu) | Boston, MA | [mauoser.github.io](https://mauoser.github.io) | [linkedin.com/in/zenrei](https://linkedin.com/in/zenrei)
+
+Summary
+======
+Master of Science in Information Systems student with a background in full-stack web development. Experienced in building scalable, secure, and user-focused platforms, with strong skills in programming, debugging, communication, and problem-solving. Eager to collaborate with diverse teams to design and deliver high-quality, impactful software solutions.
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Northeastern University**, College of Engineering — Boston, MA  
+  Master of Science in Information Systems | 3.8 GPA | Expected Dec 2027
+
+* **Toronto Metropolitan University**, RTA School of Media — Toronto, Canada  
+  Bachelor of Fine Arts in New Media, Concentration in Computational Media | 3.4 GPA | Jun 2022
+
+Projects
+======
+* **Roomalize** — [roomalize.vercel.app](https://roomalize.vercel.app), Jan 2026 – Apr 2026  
+  *Full-Stack Developer* · React, Vite, Tailwind CSS, Puter.js, Gemini AI
+  * Developed and deployed an AI-powered architectural visualization SaaS that transforms 2D floor plans into photorealistic 3D renders using React, Vite, Tailwind CSS, Puter.js, and Gemini AI.
+  * Leveraged Puter.js to architect a serverless, self-contained infrastructure, integrating high-performance KV storage and cloud hosting, and Gemini AI for photorealistic rendering—without traditional backend servers.
+
+* **KanjAI** — [kanjai-frontend.onrender.com](https://kanjai-frontend.onrender.com), Oct 2025 – Nov 2025  
+  *Full-Stack Developer* · React, Node.js/Express, PostgreSQL/Sequelize, Tailwind CSS, Gemini AI
+  * Created and deployed an AI-powered, full-stack Japanese kanji spaced repetition (SRS) learning platform.
+  * Integrated intelligent AI capabilities such as dynamic mnemonic generation, personalized learning recommendations, and an adaptive tutoring assistant that adjusts difficulty based on user performance.
+
+* **Intervy** — [intervy.onrender.com](https://intervy.onrender.com), Sep 2025 – Oct 2025  
+  *Full-Stack Developer* · React, TypeScript, Shadcn UI, Tailwind CSS, Clerk, Firebase, Gemini AI
+  * Built and deployed a full-stack AI Mock Interview web application that generates dynamic interview questions and provides real-time AI-driven feedback.
+  * Implemented features including tailored interview creation, text-to-speech response analysis, secure user management, and real-time progress storage, resulting in a fully modern, responsive, scalable platform.
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Northeastern University**, D'Amore-McKim School of Business — Boston, MA  
+  *Teaching & Research Assistant* | Jan 2026 – Present
+  * Collaborate with the professor in lesson planning, research, presentation, and lecture creation.
+  * Assist the professor with recording grades, attendance, filing documents, and preparing class materials.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Gaba Corporation** — Tokyo, Japan  
+  *English Instructor* | Jan 2025 – Aug 2025
+  * Delivered 150+ lessons in conversational and business English for working professionals and students.
+  * Tailored lessons to student goals, improving confidence and fluency in workplace and academic contexts.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+JavaScript | TypeScript | React | Node.js/Express | HTML & CSS | Ruby on Rails | Java | Python | SQL | MongoDB | Git
