@@ -1,6 +1,6 @@
 ---
 title: "Neetter — a social network for gamers"
-excerpt: "Founder & full-stack developer. Follow people and the games you play — live at neetter.com with an iOS app in TestFlight.<br/><img src='/images/neetter-card.jpg' alt='A post from the official Halo account in the Neetter feed'>"
+excerpt: "Founder & full-stack developer. Follow people and the games you play — live at neetter.com with an iOS app in TestFlight.<br/><img src='/images/neetter-card.jpg' alt='The Neetter web app: navigation, discover feed, and trending games'>"
 collection: portfolio
 date: 2026-06-04
 ---
@@ -12,7 +12,7 @@ think Twitter meets Reddit, but for gamers. You follow people *and* the games
 you play — every game has its own page with a feed, news, community reviews,
 and an about tab, and posts are tagged with the games they're about.
 
-<img src="/images/neetter-card.jpg" alt="A post from the official Halo account in the Neetter feed" style="max-width:100%;border-radius:8px;">
+<img src="/images/neetter-card.jpg" alt="The Neetter web app: navigation, discover feed, and trending games" style="max-width:100%;border-radius:8px;">
 
 What's in the product
 ------
