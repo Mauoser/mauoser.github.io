@@ -43,6 +43,14 @@ Projects
 
 Work experience
 ======
+* **Neetter** — [neetter.com](https://neetter.com) — Boston, MA  
+  *Founder & Full-Stack Developer* | May 2026 – Present  
+  Next.js/React, TypeScript, React Native (Expo), Node.js/Express, PostgreSQL/Prisma, Redis, Socket.io, Stripe
+  * Founded and launched a gaming-focused social network — users follow people *and* games, with per-game feeds, news, and reviews — live at neetter.com with a companion iOS app distributed through TestFlight.
+  * Designed and built the entire product solo: Next.js web app, React Native (Expo) iOS app, and a Node.js/Express + PostgreSQL (Prisma) API with Redis caching, deployed across Vercel, Fly.io, and Cloudflare R2 with CI-driven releases and database migrations.
+  * Shipped real-time direct messaging (Socket.io) with image/video/file attachments, GIFs and stickers (Klipy API), and voice notes; Letterboxd-style game logging and reviews; a daily game-guessing puzzle; and moderation with NSFW media scanning.
+  * Integrated Stripe subscriptions, OAuth sign-in (Google, Discord, Twitch, Apple), Firebase Cloud Messaging push, the IGDB games catalog, and Mux video transcoding; hardened uploads and APIs against XSS/SSRF with rate limiting throughout.
+
 * **Northeastern University**, D'Amore-McKim School of Business — Boston, MA  
   *Teaching & Research Assistant* | Jan 2026 – Present
   * Collaborate with the professor in lesson planning, research, presentation, and lecture creation.
@@ -55,4 +63,4 @@ Work experience
 
 Skills
 ======
-JavaScript | TypeScript | React | Node.js/Express | HTML & CSS | Ruby on Rails | Java | Python | SQL | MongoDB | Git
+JavaScript | TypeScript | React | React Native | Node.js/Express | PostgreSQL | HTML & CSS | Ruby on Rails | Java | Python | SQL | MongoDB | Git

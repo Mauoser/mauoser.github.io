@@ -13,6 +13,8 @@ I am a graduate student at **Northeastern University** pursuing a **Master of Sc
 
 I am interested in **software engineering** roles where I can help build scalable, user-focused products. I enjoy working across the stack—from responsive front ends to reliable backend services—and collaborating with teams to ship software that delivers real value.
 
+Most recently I founded and built **[Neetter](https://neetter.com)**, a gaming-focused social network — designing, developing, and operating the web app, iOS app, and backend end-to-end, from the database schema to the App Store pipeline.
+
 What I bring
 ======
 A strength of mine is **adaptability across technologies and frameworks**. In coursework and personal projects, I have used front-end and back-end tools—including JavaScript/TypeScript, React, Node.js, and Firebase—to build and deploy interactive, user-friendly applications.
@@ -21,6 +23,9 @@ I have experience integrating APIs, working with databases such as **PostgreSQL*
 
 Selected projects
 ======
+* **Neetter** — [neetter.com](https://neetter.com)  
+  Gaming-focused social network I founded and built end-to-end: follow people *and* the games you play, game pages with feeds/news/reviews, Letterboxd-style game logging, real-time messaging with GIFs/stickers/voice notes, and a daily game-guessing puzzle. Live on the web with an iOS app in TestFlight. Next.js, TypeScript, Node.js/Express, PostgreSQL (Prisma), Redis, Socket.io, React Native (Expo), Stripe.
+
 * **Roomalize** — [roomalize.vercel.app](https://roomalize.vercel.app)  
   AI-powered architectural visualization SaaS that transforms 2D floor plans into photorealistic 3D renders using React, Vite, Tailwind CSS, Puter.js, and Gemini AI.
 
@@ -34,6 +39,7 @@ See more on the [portfolio](/portfolio/) page or my full [CV](/cv/).
 
 Experience
 ======
+* **Founder & Full-Stack Developer**, [Neetter](https://neetter.com) — gaming social network — May 2026 – Present  
 * **Teaching & Research Assistant**, Northeastern University, D'Amore-McKim School of Business — Jan 2026 – Present  
 * **English Instructor**, Gaba Corporation, Tokyo — Jan 2025 – Aug 2025  
 
