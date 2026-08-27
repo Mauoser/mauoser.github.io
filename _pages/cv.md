@@ -14,53 +14,59 @@ redirect_from:
 
 Summary
 ======
-Master of Science in Information Systems student with a background in full-stack web development. Experienced in building scalable, secure, and user-focused platforms, with strong skills in programming, debugging, communication, and problem-solving. Eager to collaborate with diverse teams to design and deliver high-quality, impactful software solutions.
+Software engineer and founder with a background in full-stack web and mobile development. Experienced in designing, building, and deploying user-focused products end-to-end across frontend, backend, databases, infrastructure, authentication, payments, real-time systems, and third-party integrations. Strong problem solver and fast learner with experience taking products from idea to production.
 
 Education
 ======
 * **Northeastern University**, College of Engineering — Boston, MA  
-  Master of Science in Information Systems | 3.8 GPA | Expected Dec 2027
+  Master of Science in Information Systems | 3.8 GPA | Expected Dec 2026
 
 * **Toronto Metropolitan University**, RTA School of Media — Toronto, Canada  
   Bachelor of Fine Arts in New Media, Concentration in Computational Media | 3.4 GPA | Jun 2022
+
+Work experience
+======
+* **Neetter** — [neetter.com](https://neetter.com)  
+  *Founder & Full-Stack Developer* | May 2026 – Present  
+  Next.js, TypeScript, React Native (Expo), Node.js/Express, PostgreSQL/Prisma, Redis, Socket.io, Stripe
+  * Founded and launched a gaming-focused social platform that brings players, developers, publishers, creators, and games together through game communities, social feeds, reviews, news, discovery, messaging, and game tracking.
+  * Designed and built the product end-to-end as a solo founder across web, iOS, backend, database, infrastructure, CI/CD, and App Store deployment; launched the web platform at neetter.com with an iOS app in TestFlight.
+  * Architected a shared monorepo across Next.js, React Native, and Node.js, sharing TypeScript types, validation schemas, and design tokens across web, mobile, and backend applications.
+  * Built real-time direct messaging, notifications, media uploads, game logging and reviews, LFG functionality, and a daily game-guessing experience using Socket.io, Redis, PostgreSQL, and third-party APIs.
+  * Integrated Stripe subscriptions, Apple and Google in-app purchases, OAuth authentication with Google, Discord, Twitch, and Apple, Firebase Cloud Messaging, IGDB game data, Mux video processing, and Klipy GIFs/stickers.
+  * Implemented security and moderation controls including input validation, rate limiting, NSFW media scanning, and protections against common XSS and SSRF attack vectors.
+
+* **Northeastern University**, D'Amore-McKim School of Business — Boston, MA  
+  *Teaching & Research Assistant* | Jan 2026 – Present
+  * Support faculty with lesson planning, research, presentations, lecture development, grading, attendance, documentation, and course preparation.
+  * Collaborate on academic research and instructional materials while supporting day-to-day course operations.
+
+* **Gaba Corporation** — Tokyo, Japan  
+  *English Instructor* | Jan 2025 – Aug 2025
+  * Delivered 150+ conversational and business English lessons to working professionals and students.
+  * Adapted instruction to individual goals and learning styles, strengthening communication skills and learner confidence.
 
 Projects
 ======
 * **Roomalize** — [roomalize.vercel.app](https://roomalize.vercel.app), Jan 2026 – Apr 2026  
   *Full-Stack Developer* · React, Vite, Tailwind CSS, Puter.js, Gemini AI
-  * Developed and deployed an AI-powered architectural visualization SaaS that transforms 2D floor plans into photorealistic 3D renders using React, Vite, Tailwind CSS, Puter.js, and Gemini AI.
-  * Leveraged Puter.js to architect a serverless, self-contained infrastructure, integrating high-performance KV storage and cloud hosting, and Gemini AI for photorealistic rendering—without traditional backend servers.
+  * Developed and deployed an AI-powered architectural visualization SaaS that transforms 2D floor plans into photorealistic 3D renders.
+  * Designed a serverless architecture using Puter.js for cloud storage and hosting, integrating Gemini AI into the rendering workflow.
 
 * **KanjAI** — [kanjai-frontend.onrender.com](https://kanjai-frontend.onrender.com), Oct 2025 – Nov 2025  
   *Full-Stack Developer* · React, Node.js/Express, PostgreSQL/Sequelize, Tailwind CSS, Gemini AI
-  * Created and deployed an AI-powered, full-stack Japanese kanji spaced repetition (SRS) learning platform.
-  * Integrated intelligent AI capabilities such as dynamic mnemonic generation, personalized learning recommendations, and an adaptive tutoring assistant that adjusts difficulty based on user performance.
+  * Built and deployed an AI-powered Japanese kanji spaced-repetition learning platform.
+  * Implemented AI-generated mnemonics, personalized learning recommendations, and an adaptive tutoring assistant based on user performance.
 
 * **Intervy** — [intervy.onrender.com](https://intervy.onrender.com), Sep 2025 – Oct 2025  
   *Full-Stack Developer* · React, TypeScript, Shadcn UI, Tailwind CSS, Clerk, Firebase, Gemini AI
-  * Built and deployed a full-stack AI Mock Interview web application that generates dynamic interview questions and provides real-time AI-driven feedback.
-  * Implemented features including tailored interview creation, text-to-speech response analysis, secure user management, and real-time progress storage, resulting in a fully modern, responsive, scalable platform.
-
-Work experience
-======
-* **Neetter** — [neetter.com](https://neetter.com) — Boston, MA  
-  *Founder & Full-Stack Developer* | May 2026 – Present  
-  Next.js/React, TypeScript, React Native (Expo), Node.js/Express, PostgreSQL/Prisma, Redis, Socket.io, Stripe
-  * Founded and launched a gaming-focused social network — users follow people *and* games, with per-game feeds, news, and reviews — live at neetter.com with a companion iOS app distributed through TestFlight.
-  * Designed and built the entire product solo: Next.js web app, React Native (Expo) iOS app, and a Node.js/Express + PostgreSQL (Prisma) API with Redis caching, deployed across Vercel, Fly.io, and Cloudflare R2 with CI-driven releases and database migrations.
-  * Shipped real-time direct messaging (Socket.io) with image/video/file attachments, GIFs and stickers (Klipy API), and voice notes; Letterboxd-style game logging and reviews; a daily game-guessing puzzle; and moderation with NSFW media scanning.
-  * Integrated Stripe subscriptions, OAuth sign-in (Google, Discord, Twitch, Apple), Firebase Cloud Messaging push, the IGDB games catalog, and Mux video transcoding; hardened uploads and APIs against XSS/SSRF with rate limiting throughout.
-
-* **Northeastern University**, D'Amore-McKim School of Business — Boston, MA  
-  *Teaching & Research Assistant* | Jan 2026 – Present
-  * Collaborate with the professor in lesson planning, research, presentation, and lecture creation.
-  * Assist the professor with recording grades, attendance, filing documents, and preparing class materials.
-
-* **Gaba Corporation** — Tokyo, Japan  
-  *English Instructor* | Jan 2025 – Aug 2025
-  * Delivered 150+ lessons in conversational and business English for working professionals and students.
-  * Tailored lessons to student goals, improving confidence and fluency in workplace and academic contexts.
+  * Built and deployed an AI-powered mock interview platform with dynamically generated interview questions and real-time feedback.
+  * Implemented tailored interview flows, response analysis, secure authentication, and persistent user progress.
 
 Skills
 ======
-JavaScript | TypeScript | React | React Native | Node.js/Express | PostgreSQL | HTML & CSS | Ruby on Rails | Java | Python | SQL | MongoDB | Git
+**Languages:** JavaScript | TypeScript | Ruby | Java | Python | SQL  
+**Frontend:** React | Next.js | React Native | HTML | CSS | Tailwind CSS  
+**Backend:** Node.js | Express | Ruby on Rails | PostgreSQL | MongoDB  
+**Infrastructure & Tools:** Redis | Socket.io | Git | GitHub | Firebase | Stripe | Vercel | Fly.io | Cloudflare R2 | Mux  
+**AI:** Gemini AI
