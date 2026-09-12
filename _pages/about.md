@@ -73,12 +73,12 @@ Education
   <li>
     <strong>Master of Science in Information Systems</strong>
     <span class="education-list__details">Northeastern University, College of Engineering</span>
-    <span class="education-list__dates">GPA: 3.84 · Expected Dec 2026</span>
+    <span class="education-list__dates">Jan 2025 – Dec 2026 · GPA: 3.84</span>
   </li>
   <li>
     <strong>Bachelor of Fine Arts in New Media (Computational Media)</strong>
     <span class="education-list__details">Toronto Metropolitan University, RTA School of Media</span>
-    <span class="education-list__dates">GPA: 3.4 · Jun 2022</span>
+    <span class="education-list__dates">Sep 2017 – Jun 2022 · GPA: 3.4</span>
   </li>
 </ul>
 

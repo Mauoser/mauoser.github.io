@@ -18,11 +18,18 @@ Software engineer and founder with a background in full-stack web and mobile dev
 
 Education
 ======
-* **Northeastern University**, College of Engineering — Boston, MA  
-  Master of Science in Information Systems | 3.84 GPA | Expected Dec 2026
-
-* **Toronto Metropolitan University**, RTA School of Media — Toronto, Canada  
-  Bachelor of Fine Arts in New Media, Concentration in Computational Media | 3.4 GPA | Jun 2022
+<ul class="education-list">
+  <li>
+    <strong>Northeastern University</strong>
+    <span class="education-list__details">College of Engineering · Boston, MA<br>Master of Science in Information Systems</span>
+    <span class="education-list__dates">Jan 2025 – Dec 2026 · GPA: 3.84</span>
+  </li>
+  <li>
+    <strong>Toronto Metropolitan University</strong>
+    <span class="education-list__details">RTA School of Media · Toronto, Canada<br>Bachelor of Fine Arts in New Media, Concentration in Computational Media</span>
+    <span class="education-list__dates">Sep 2017 – Jun 2022 · GPA: 3.4</span>
+  </li>
+</ul>
 
 Work experience
 ======
