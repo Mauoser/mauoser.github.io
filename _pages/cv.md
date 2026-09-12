@@ -27,10 +27,10 @@ Education
 Work experience
 ======
 * **Neetter** — [neetter.com](https://neetter.com)  
-  *Founder & Full-Stack Developer* | May 2026 – Present  
+  *Founder & Software Engineer* | May 2026 – Present
   Next.js, TypeScript, React Native (Expo), Node.js/Express, PostgreSQL/Prisma, Redis, Socket.io, Stripe
-  * Founded and launched a gaming-focused social platform that brings players, developers, publishers, creators, and games together through game communities, social feeds, reviews, news, discovery, messaging, and game tracking.
-  * Designed and built the product end-to-end as a solo founder across web, iOS, backend, database, infrastructure, CI/CD, and App Store deployment; launched the web platform at neetter.com with an iOS app in TestFlight.
+  * Founded and launched Neetter, a social network for gamers where people can follow games and other people, join communities, share reviews, track what they play, and discover what to play next.
+  * Designed and built the product end-to-end as a solo founder across web, iOS, Android, backend, database, infrastructure, CI/CD, and app distribution; launched the web platform at neetter.com with iOS and Android apps in beta testing.
   * Architected a shared monorepo across Next.js, React Native, and Node.js, sharing TypeScript types, validation schemas, and design tokens across web, mobile, and backend applications.
   * Built real-time direct messaging, notifications, media uploads, game logging and reviews, LFG functionality, and a daily game-guessing experience using Socket.io, Redis, PostgreSQL, and third-party APIs.
   * Integrated Stripe subscriptions, Apple and Google in-app purchases, OAuth authentication with Google, Discord, Twitch, and Apple, Firebase Cloud Messaging, IGDB game data, Mux video processing, and Klipy GIFs/stickers.

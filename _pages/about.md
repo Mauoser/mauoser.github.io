@@ -13,7 +13,9 @@ I am a graduate student at **Northeastern University** pursuing a **Master of Sc
 
 I am a **software engineer and founder** interested in building products that are useful, intuitive, and built to scale. I enjoy working across the stack—from frontend interfaces and mobile applications to backend services, databases, infrastructure, and third-party integrations—and I especially enjoy turning an idea into a working product from the ground up.
 
-Most recently, I founded **[Neetter](https://neetter.com)**, a social platform built around games. I designed, developed, and operate the product end-to-end across web, iOS, backend, database, infrastructure, payments, real-time systems, and the App Store pipeline.
+**The Social Home for Gamers.**
+
+I founded **[Neetter](https://neetter.com)**, a social network for gamers where you can follow games and people, join communities, share reviews, track what you play, and discover what to play next. I designed, developed, and operate the product end-to-end across web, iOS, backend, database, infrastructure, payments, real-time systems, and the App Store pipeline.
 
 What I bring
 ======
@@ -30,7 +32,7 @@ Selected projects
 ======
 
 * **Neetter** — [neetter.com](https://neetter.com)  
-  **The Social Home for Gamers.** A gaming-focused social platform I founded and built end-to-end. Neetter brings players, developers, publishers, creators, and games together in one place through game communities, social posts, reviews, game logging, news, discovery, direct messaging, LFG, and Gamedle. Live on the web with an iOS app in TestFlight. Next.js, TypeScript, React Native (Expo), Node.js/Express, PostgreSQL/Prisma, Redis, Socket.io, Stripe, Cloudflare R2, Mux.
+  **The Social Home for Gamers.** A social network for gamers that brings players, developers, publishers, creators, and communities together around the games they love. Follow games and people, join communities, share reviews, track what you play, discover what to play next, and stay connected through social feeds, news, messaging, LFG, and Gamedle. Live on the web with iOS and Android apps in beta testing. Next.js, TypeScript, React Native (Expo), Node.js/Express, PostgreSQL/Prisma, Redis, Socket.io, Stripe, Cloudflare R2, Mux.
 
 * **Roomalize** — [roomalize.vercel.app](https://roomalize.vercel.app)  
   AI-powered architectural visualization SaaS that transforms 2D floor plans into photorealistic 3D renders. React, Vite, Tailwind CSS, Puter.js, Gemini AI.
@@ -46,7 +48,7 @@ See more on the [portfolio](/portfolio/) page or view my full [CV](/cv/).
 Experience
 ======
 
-* **Founder & Full-Stack Developer**, [Neetter](https://neetter.com) — Gaming social platform — May 2026 – Present
+* **Founder & Software Engineer**, [Neetter](https://neetter.com) — Social network for gamers — May 2026 – Present
 * **Teaching & Research Assistant**, Northeastern University, D'Amore-McKim School of Business — Jan 2026 – Present
 * **English Instructor**, Gaba Corporation, Tokyo — Jan 2025 – Aug 2025
 
