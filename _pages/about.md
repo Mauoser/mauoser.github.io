@@ -48,9 +48,23 @@ See more on the [portfolio](/portfolio/) page or view my full [CV](/cv/).
 Experience
 ======
 
-* **Founder & Software Engineer**, [Neetter](https://neetter.com) — Social network for gamers — May 2026 – Present
-* **Teaching & Research Assistant**, Northeastern University, D'Amore-McKim School of Business — Jan 2026 – Present
-* **English Instructor**, Gaba Corporation, Tokyo — Jan 2025 – Aug 2025
+<ul class="experience-list">
+  <li>
+    <strong>Founder &amp; Software Engineer</strong>
+    <span class="experience-list__details"><a href="https://neetter.com">Neetter</a> · Social network for gamers</span>
+    <span class="experience-list__dates">May 2026 – Present</span>
+  </li>
+  <li>
+    <strong>Teaching &amp; Research Assistant</strong>
+    <span class="experience-list__details">Northeastern University, D’Amore-McKim School of Business</span>
+    <span class="experience-list__dates">Jan 2026 – Present</span>
+  </li>
+  <li>
+    <strong>English Instructor</strong>
+    <span class="experience-list__details">Gaba Corporation · Tokyo</span>
+    <span class="experience-list__dates">Jan 2025 – Aug 2025</span>
+  </li>
+</ul>
 
 Education
 ======

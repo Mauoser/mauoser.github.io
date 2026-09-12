@@ -59,6 +59,31 @@
     font-size: 1em;
   }
 
+  .experience-list {
+    margin-left: 0;
+    padding-left: 1.25em;
+
+    li {
+      margin-bottom: 1.25em;
+    }
+
+    strong,
+    .experience-list__details,
+    .experience-list__dates {
+      display: block;
+    }
+
+    .experience-list__details {
+      margin-top: 0.15em;
+    }
+
+    .experience-list__dates {
+      margin-top: 0.1em;
+      color: var(--global-text-color-light);
+      font-size: 0.9em;
+    }
+  }
+
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
