@@ -2,7 +2,10 @@
 title: "Neetter — The Social Home for Gamers"
 seo_title: "Neetter - Video Game Communities, Reviews & Tracking"
 description: "Neetter is a social network for gamers where you can follow games and people, join communities, share reviews, track what you play, and discover what to play next."
-excerpt: "Founder & Software Engineer. The Social Home for Gamers — follow games and people, join communities, share reviews, and track what you play. Live at neetter.com with iOS and Android apps in beta testing.<br/><img src='/images/neetter-card.jpg' alt='The Neetter web app: navigation, discover feed, and trending games'>"
+excerpt: |
+  **The Social Home for Gamers.** Neetter is a social network for gamers where you can follow games and people, join communities, share reviews, track what you play, and discover what to play next. Built end-to-end with Next.js and TypeScript for web, React Native (Expo) for iOS and Android, Node.js/Express, PostgreSQL/Prisma, Redis, Socket.io, Stripe, Cloudflare R2, and Mux.
+
+  <img src="/images/neetter-card.jpg" alt="The Neetter web app: navigation, discover feed, and trending games">
 collection: portfolio
 date: 2026-06-04
 ---

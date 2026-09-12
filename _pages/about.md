@@ -69,8 +69,18 @@ Experience
 Education
 ======
 
-* **M.S. Information Systems**, Northeastern University, College of Engineering — 3.8 GPA, expected Dec 2026
-* **B.F.A. New Media (Computational Media)**, Toronto Metropolitan University — 3.4 GPA, Jun 2022
+<ul class="education-list">
+  <li>
+    <strong>Master of Science in Information Systems</strong>
+    <span class="education-list__details">Northeastern University, College of Engineering</span>
+    <span class="education-list__dates">GPA: 3.84 · Expected Dec 2026</span>
+  </li>
+  <li>
+    <strong>Bachelor of Fine Arts in New Media (Computational Media)</strong>
+    <span class="education-list__details">Toronto Metropolitan University, RTA School of Media</span>
+    <span class="education-list__dates">GPA: 3.4 · Jun 2022</span>
+  </li>
+</ul>
 
 Get in touch
 ======

@@ -19,7 +19,7 @@ Software engineer and founder with a background in full-stack web and mobile dev
 Education
 ======
 * **Northeastern University**, College of Engineering — Boston, MA  
-  Master of Science in Information Systems | 3.8 GPA | Expected Dec 2026
+  Master of Science in Information Systems | 3.84 GPA | Expected Dec 2026
 
 * **Toronto Metropolitan University**, RTA School of Media — Toronto, Canada  
   Bachelor of Fine Arts in New Media, Concentration in Computational Media | 3.4 GPA | Jun 2022
@@ -69,4 +69,4 @@ Skills
 **Frontend:** React | Next.js | React Native | HTML | CSS | Tailwind CSS  
 **Backend:** Node.js | Express | Ruby on Rails | PostgreSQL | MongoDB  
 **Infrastructure & Tools:** Redis | Socket.io | Git | GitHub | Firebase | Stripe | Vercel | Fly.io | Cloudflare R2 | Mux  
-**AI:** Gemini AI
+**AI:** ChatGPT | Claude | Gemini AI

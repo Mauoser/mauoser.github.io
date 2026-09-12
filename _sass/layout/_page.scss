@@ -84,6 +84,31 @@
     }
   }
 
+  .education-list {
+    margin-left: 0;
+    padding-left: 1.25em;
+
+    li {
+      margin-bottom: 1.25em;
+    }
+
+    strong,
+    .education-list__details,
+    .education-list__dates {
+      display: block;
+    }
+
+    .education-list__details {
+      margin-top: 0.15em;
+    }
+
+    .education-list__dates {
+      margin-top: 0.1em;
+      color: var(--global-text-color-light);
+      font-size: 0.9em;
+    }
+  }
+
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
