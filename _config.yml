@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Lei Zhang — Founder of Neetter & Software Engineer"
+title                    : "Rei Zhang — Founder of Neetter & Software Engineer"
 title_separator          : "-"
-name                     : &name "Lei Zhang"
+name                     : &name "Rei Zhang"
 description              : &description "Neetter is a social network for gamers where you can follow games and people, join communities, share reviews, track what you play, and discover what to play next."
 url                      : https://mauoser.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -24,7 +24,7 @@ repository               : "Mauoser/mauoser.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Lei Zhang"
+  name             : "Rei Zhang"
   pronouns         : # example: "she/her"  
   bio              : "Founder of Neetter · Software Engineer"
   location         : "Boston, USA"

@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hey! I'm Lei.
+Hey! I'm Rei.
 
 I am a graduate student at **Northeastern University** pursuing a **Master of Science in Information Systems** (expected Dec 2026). Previously, I studied **Computational Media** at **Toronto Metropolitan University**, where I built a foundation in software development, creative technologies, and interactive media.
 
