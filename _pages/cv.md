@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-**Lei Zhang**  
+**Rei Zhang**  
 (781) 526-1296 | [zhang.l5@northeastern.edu](mailto:zhang.l5@northeastern.edu) | Boston, MA | [mauoser.github.io](https://mauoser.github.io) | [linkedin.com/in/zenrei](https://linkedin.com/in/zenrei)
 
 Summary
