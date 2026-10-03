@@ -13,7 +13,7 @@ title                    : "Rei Zhang — Founder of Neetter & Software Engineer
 title_separator          : "-"
 name                     : &name "Rei Zhang"
 description              : &description "Neetter is a social network for gamers where you can follow games and people, join communities, share reviews, track what you play, and discover what to play next."
-url                      : https://mauoser.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://zenrei.me # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Mauoser/mauoser.github.io"
