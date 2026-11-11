@@ -1,6 +1,4 @@
-_site/
-vendor/
-.bundle/
+.next/
+out/
 node_modules/
-*.min.js
 package-lock.json
