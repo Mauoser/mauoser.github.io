@@ -11,7 +11,7 @@ Hey! I'm Rei.
 
 I am a graduate student at **Northeastern University** pursuing a **Master of Science in Information Systems** (expected Dec 2026). Previously, I studied **Computational Media** at **Toronto Metropolitan University**, where I built a foundation in software development, creative technologies, and interactive media.
 
-I am a **software engineer and founder** interested in building products that are useful, intuitive, and built to scale. I enjoy working across the stack—from frontend interfaces and mobile applications to backend services, databases, infrastructure, and third-party integrations—and I especially enjoy turning an idea into a working product from the ground up.
+I am a **founder who works across product and engineering**, interested in building products that are useful, intuitive, and built to scale. On the product side, I run user research, shape the roadmap, and measure what ships. On the engineering side, I work across the stack—from frontend interfaces and mobile applications to backend services, databases, infrastructure, and third-party integrations. I especially enjoy turning an idea into a working product from the ground up.
 
 **The Social Home for Gamers.**
 
@@ -32,7 +32,7 @@ Selected projects
 ======
 
 * **Neetter** — [neetter.com](https://neetter.com)  
-  **The Social Home for Gamers.** A social network for gamers that brings players, developers, publishers, creators, and communities together around the games they love. Follow games and people, join communities, share reviews, track what you play, discover what to play next, and stay connected through social feeds, news, messaging, LFG, and Gamedle. Live on the web with iOS and Android apps in beta testing. Next.js, TypeScript, React Native (Expo), Node.js/Express, PostgreSQL/Prisma, Redis, Socket.io, Stripe, Cloudflare R2, Mux.
+  **The Social Home for Gamers.** A social network for gamers that brings players, developers, publishers, creators, and communities together around the games they love. Follow games and people, join communities, share reviews, track what you play, discover what to play next, and stay connected through social feeds, news, messaging, Find players, and Gamedle. Live on the web, the App Store, and Google Play. Next.js, TypeScript, React Native (Expo), Node.js/Express, PostgreSQL/Prisma, Redis, Socket.io, Stripe, Cloudflare R2, Mux.
 
 * **Roomalize** — [roomalize.vercel.app](https://roomalize.vercel.app)  
   AI-powered architectural visualization SaaS that transforms 2D floor plans into photorealistic 3D renders. React, Vite, Tailwind CSS, Puter.js, Gemini AI.
@@ -50,7 +50,7 @@ Experience
 
 <ul class="experience-list">
   <li>
-    <strong>Founder &amp; Software Engineer</strong>
+    <strong>Founder · Product &amp; Engineering</strong>
     <span class="experience-list__details"><a href="https://neetter.com">Neetter</a> · Social network for gamers</span>
     <span class="experience-list__dates">May 2026 – Present</span>
   </li>
