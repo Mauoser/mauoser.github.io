@@ -1,32 +1,40 @@
 import type { Metadata, Viewport } from "next";
-import { IBM_Plex_Mono, IBM_Plex_Sans, Newsreader } from "next/font/google";
+import localFont from "next/font/local";
 
 import { themeScript } from "@/components/ThemeToggle";
 import { site } from "@/content/site";
 
 import "./globals.css";
 
-// Fonts are downloaded at build time and served from the site itself.
-const newsreader = Newsreader({
-  subsets: ["latin"],
-  axes: ["opsz"],
-  style: ["normal"],
+// Fonts are files in the repository's dependencies (Fontsource, OFL), served
+// from the site itself: no request to a font service, at build time or in the
+// browser, so a build can't fail on a flaky download.
+const newsreader = localFont({
+  src: "../node_modules/@fontsource-variable/newsreader/files/newsreader-latin-opsz-normal.woff2",
+  weight: "200 800",
+  style: "normal",
   display: "swap",
   variable: "--font-newsreader",
 });
 
-const plexSans = IBM_Plex_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
+const plexSans = localFont({
+  src: [
+    { path: "../node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-400-normal.woff2", weight: "400" },
+    { path: "../node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-500-normal.woff2", weight: "500" },
+    { path: "../node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-600-normal.woff2", weight: "600" },
+  ],
+  style: "normal",
   display: "swap",
   variable: "--font-plex-sans",
 });
 
-const plexMono = IBM_Plex_Mono({
-  subsets: ["latin"],
-  weight: ["400"],
+const plexMono = localFont({
+  src: "../node_modules/@fontsource/ibm-plex-mono/files/ibm-plex-mono-latin-400-normal.woff2",
+  weight: "400",
+  style: "normal",
   display: "swap",
   variable: "--font-plex-mono",
+  preload: false,
 });
 
 export const metadata: Metadata = {
