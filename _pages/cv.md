@@ -34,12 +34,12 @@ Education
 Work experience
 ======
 * **Neetter** — [neetter.com](https://neetter.com)  
-  *Founder & Software Engineer* | May 2026 – Present
+  *Founder · Product & Engineering* | May 2026 – Present
   Next.js, TypeScript, React Native (Expo), Node.js/Express, PostgreSQL/Prisma, Redis, Socket.io, Stripe
   * Founded and launched Neetter, a social network for gamers where people can follow games and other people, join communities, share reviews, track what they play, and discover what to play next.
-  * Designed and built the product end-to-end as a solo founder across web, iOS, Android, backend, database, infrastructure, CI/CD, and app distribution; launched the web platform at neetter.com with iOS and Android apps in beta testing.
+  * Designed and built the product end-to-end as a solo founder across web, iOS, Android, backend, database, infrastructure, CI/CD, and app distribution; launched at neetter.com, on the App Store, and on Google Play.
   * Architected a shared monorepo across Next.js, React Native, and Node.js, sharing TypeScript types, validation schemas, and design tokens across web, mobile, and backend applications.
-  * Built real-time direct messaging, notifications, media uploads, game logging and reviews, LFG functionality, and a daily game-guessing experience using Socket.io, Redis, PostgreSQL, and third-party APIs.
+  * Built real-time direct messaging, notifications, media uploads, game logging and reviews, Find players (looking-for-group) posts, and a daily game-guessing experience using Socket.io, Redis, PostgreSQL, and third-party APIs.
   * Integrated Stripe subscriptions, Apple and Google in-app purchases, OAuth authentication with Google, Discord, Twitch, and Apple, Firebase Cloud Messaging, IGDB game data, Mux video processing, and Klipy GIFs/stickers.
   * Implemented security and moderation controls including input validation, rate limiting, NSFW media scanning, and protections against common XSS and SSRF attack vectors.
 
