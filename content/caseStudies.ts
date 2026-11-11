@@ -32,7 +32,7 @@ export const caseStudies: readonly CaseStudy[] = [
     href: "/work/bring-your-games/",
     title: "Bring your games",
     summary:
-      "Linking Steam, Xbox, PlayStation, Nintendo and RetroAchievements, so a new profile starts full instead of empty.",
+      "Linking Steam, Xbox and RetroAchievements, so a new profile starts full instead of empty.",
     product:
       "Beating the cold start with the player’s own library, an import that never overwrites a choice, and a match-rate gate before launch.",
     engineering:

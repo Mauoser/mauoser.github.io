@@ -140,7 +140,7 @@ export function ProjectList({ headingLevel = 3 }: { headingLevel?: 2 | 3 }) {
         </div>
         <Heading>{roomalize.name}</Heading>
         <p>{roomalize.oneLine}</p>
-        <p className="meta">Full-Stack Developer · {roomalize.dates}</p>
+        <p className="meta">Creator &amp; Developer · {roomalize.dates}</p>
         <p className="meta">{roomalize.stack}</p>
         <p className="inline-links">
           <a className="text-link" href={roomalize.url}>

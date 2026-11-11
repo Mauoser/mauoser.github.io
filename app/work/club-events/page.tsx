@@ -80,8 +80,8 @@ export default function ClubEvents() {
                 </li>
                 <li>
                   <strong>Tournaments stay on start.gg.</strong> It already runs registration and
-                  brackets, and it is a likely partner as much as a competitor. Neetter helps
-                  people find and talk about a tournament, and the event links out for sign-up.
+                  brackets well, so Neetter doesn’t rebuild them: it helps people find and
+                  talk about a tournament, and the event links out to start.gg for sign-up.
                 </li>
                 <li>
                   <strong>The address defaults to people going.</strong> Someone hosting a LAN

@@ -6,7 +6,7 @@ import { pageMeta } from "@/content/meta";
 export const metadata = pageMeta({
   title: "Bring your games",
   description:
-    "Case study: linking Steam, Xbox, PlayStation, Nintendo and RetroAchievements accounts to Neetter, syncing libraries, and matching titles to the IGDB catalogue. The product decisions and the engineering behind them.",
+    "Case study: linking Steam, Xbox and RetroAchievements accounts to Neetter, syncing libraries, and matching titles to the IGDB catalogue. The product decisions and the engineering behind them.",
   path: "/work/bring-your-games/",
 });
 
@@ -25,7 +25,7 @@ export default function BringYourGames() {
             },
             {
               term: "Platforms",
-              detail: "Steam, Xbox, PlayStation, Nintendo, RetroAchievements",
+              detail: "Steam, Xbox, RetroAchievements",
             },
             { term: "Built for", detail: "Web, iOS and Android, on one API" },
           ]}
@@ -71,7 +71,7 @@ export default function BringYourGames() {
               <ul>
                 <li>
                   <strong>The player’s own games come first.</strong> Sign-up goes from the
-                  username to Bring your games, with Steam, Xbox, PlayStation and Nintendo side by
+                  username to Bring your games, with the platforms to link side by
                   side, then to following games, then the profile. Every step after the username
                   can be skipped, and until you’ve posted, Home opens on your own games.
                 </li>
@@ -104,7 +104,7 @@ export default function BringYourGames() {
             <Block title="What shipped">
               <ul>
                 <li>
-                  Linking for Steam on 1 October, Xbox, PlayStation and Nintendo by 15 October,
+                  Linking for Steam on 1 October, Xbox by 15 October,
                   and RetroAchievements on 10 November.
                 </li>
                 <li>

@@ -149,7 +149,7 @@ export default function CV() {
                 </p>
                 <p className="role-dates">Jan 2026 – Apr 2026</p>
               </div>
-              <p className="role-org">Full-Stack Developer</p>
+              <p className="role-org">Creator &amp; Developer</p>
               <p className="meta">React, Vite, Tailwind CSS, Puter.js, Gemini AI</p>
               <ul>
                 <li>
