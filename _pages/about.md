@@ -57,7 +57,7 @@ Experience
   <li>
     <strong>Teaching &amp; Research Assistant</strong>
     <span class="experience-list__details">Northeastern University, D’Amore-McKim School of Business</span>
-    <span class="experience-list__dates">Jan 2026 – Present</span>
+    <span class="experience-list__dates">Jan 2026 – Jul 2026</span>
   </li>
   <li>
     <strong>English Instructor</strong>

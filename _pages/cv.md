@@ -44,7 +44,7 @@ Work experience
   * Implemented security and moderation controls including input validation, rate limiting, NSFW media scanning, and protections against common XSS and SSRF attack vectors.
 
 * **Northeastern University**, D'Amore-McKim School of Business — Boston, MA  
-  *Teaching & Research Assistant* | Jan 2026 – Present
+  *Teaching & Research Assistant* | Jan 2026 – Jul 2026
   * Support faculty with lesson planning, research, presentations, lecture development, grading, attendance, documentation, and course preparation.
   * Collaborate on academic research and instructional materials while supporting day-to-day course operations.
 
