@@ -1,5 +1,5 @@
-/** The site's few icons: one 24-unit grid, one 1.6 stroke, round ends. Each is
- *  decorative (aria-hidden): the text beside it carries the meaning. */
+/** The site's few icons: arrows only, on one 24-unit grid with one 1.6 stroke.
+ *  Each is decorative (aria-hidden): the text beside it carries the meaning. */
 
 type IconProps = { className?: string };
 
@@ -10,8 +10,8 @@ function Svg({ children, className }: { children: React.ReactNode; className?: s
       fill="none"
       stroke="currentColor"
       strokeWidth="1.6"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      strokeLinecap="square"
+      strokeLinejoin="miter"
       aria-hidden="true"
       focusable="false"
       className={className}
@@ -29,7 +29,7 @@ export function ArrowRight({ className = "arrow" }: IconProps) {
   );
 }
 
-export function ArrowLeft({ className }: IconProps) {
+export function ArrowLeft({ className = "arrow" }: IconProps) {
   return (
     <Svg className={className}>
       <path d="M20 12H5M11 6l-6 6 6 6" />
@@ -37,7 +37,15 @@ export function ArrowLeft({ className }: IconProps) {
   );
 }
 
-export function ArrowUpRight({ className }: IconProps) {
+export function ArrowDown({ className = "arrow" }: IconProps) {
+  return (
+    <Svg className={className}>
+      <path d="M12 4v15M6 13l6 6 6-6" />
+    </Svg>
+  );
+}
+
+export function ArrowUpRight({ className = "arrow" }: IconProps) {
   return (
     <Svg className={className}>
       <path d="M7 17L17 7M9 7h8v8" />
@@ -45,37 +53,25 @@ export function ArrowUpRight({ className }: IconProps) {
   );
 }
 
-export function DocumentIcon({ className }: IconProps) {
+/** A link's words with its arrow held to the last word, so the arrow never
+ *  wraps onto a line of its own. */
+export function WithArrow({
+  text,
+  Icon = ArrowRight,
+}: {
+  text: string;
+  Icon?: (props: IconProps) => React.JSX.Element;
+}) {
+  const cut = text.lastIndexOf(" ");
+  const head = cut === -1 ? "" : text.slice(0, cut + 1);
+  const last = cut === -1 ? text : text.slice(cut + 1);
   return (
-    <Svg className={className}>
-      <path d="M7 3h7l4 4v14H7z" />
-      <path d="M14 3v4h4M10 12h5M10 16h5" />
-    </Svg>
-  );
-}
-
-export function MailIcon({ className }: IconProps) {
-  return (
-    <Svg className={className}>
-      <rect x="3" y="5.5" width="18" height="13" rx="2" />
-      <path d="M4 7l8 6 8-6" />
-    </Svg>
-  );
-}
-
-export function SunIcon({ className = "icon-sun" }: IconProps) {
-  return (
-    <Svg className={className}>
-      <circle cx="12" cy="12" r="4" />
-      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4" />
-    </Svg>
-  );
-}
-
-export function MoonIcon({ className = "icon-moon" }: IconProps) {
-  return (
-    <Svg className={className}>
-      <path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" />
-    </Svg>
+    <>
+      {head}
+      <span className="nowrap">
+        {last}
+        <Icon />
+      </span>
+    </>
   );
 }

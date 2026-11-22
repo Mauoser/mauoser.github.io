@@ -1,5 +1,6 @@
 import { site } from "@/content/site";
 
+import { ArrowUpRight } from "./Icons";
 import { ThemeToggle } from "./ThemeToggle";
 
 export type NavKey = "home" | "product" | "engineering" | "cv" | "work" | "other";
@@ -10,6 +11,7 @@ const NAV: readonly { key: NavKey; href: string; label: string }[] = [
   { key: "cv", href: "/cv/", label: "CV" },
 ];
 
+/** Name, the three pages, the theme. On a phone the nav takes a row of its own. */
 export function SiteHeader({ current }: { current: NavKey }) {
   return (
     <div className="wrap">
@@ -17,20 +19,18 @@ export function SiteHeader({ current }: { current: NavKey }) {
         <a className="wordmark" href="/" aria-current={current === "home" ? "page" : undefined}>
           {site.name}
         </a>
-        <div className="site-nav">
-          <nav aria-label="Main">
-            {NAV.map((item) => (
-              <a
-                key={item.key}
-                href={item.href}
-                aria-current={current === item.key ? "page" : undefined}
-              >
-                {item.label}
-              </a>
-            ))}
-          </nav>
-          <ThemeToggle />
-        </div>
+        <nav className="site-nav" aria-label="Main">
+          {NAV.map((item) => (
+            <a
+              key={item.key}
+              href={item.href}
+              aria-current={current === item.key ? "page" : undefined}
+            >
+              {item.label}
+            </a>
+          ))}
+        </nav>
+        <ThemeToggle />
       </header>
     </div>
   );
@@ -39,21 +39,30 @@ export function SiteHeader({ current }: { current: NavKey }) {
 export function SiteFooter() {
   return (
     <footer className="site-footer">
-      <div className="wrap">
-        <p>
-          {site.name} · <a href={`mailto:${site.email}`}>{site.email}</a>
-        </p>
-        <ul className="inline-links" aria-label="Elsewhere">
-          <li>
-            <a href={site.linkedin}>LinkedIn</a>
-          </li>
-          <li>
-            <a href={site.github}>GitHub</a>
-          </li>
-          <li>
-            <a href="/cv/">CV</a>
-          </li>
-        </ul>
+      <div className="wrap footer-grid">
+        <p className="footer-name">{site.name}</p>
+        <div className="footer-main">
+          <a className="footer-email" href={`mailto:${site.email}`}>
+            {site.email}
+          </a>
+          <ul className="footer-links" aria-label="Elsewhere">
+            <li>
+              <a href={site.linkedin}>
+                LinkedIn
+                <ArrowUpRight />
+              </a>
+            </li>
+            <li>
+              <a href={site.github}>
+                GitHub
+                <ArrowUpRight />
+              </a>
+            </li>
+            <li>
+              <a href="/cv/">CV</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   );

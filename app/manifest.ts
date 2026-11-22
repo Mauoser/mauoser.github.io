@@ -9,8 +9,8 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "Founder of Neetter. Product and engineering.",
     start_url: "/",
     display: "browser",
-    background_color: "#f6f4ef",
-    theme_color: "#a8360f",
+    background_color: "#f7f7f5",
+    theme_color: "#0e0e0d",
     icons: [
       { src: "/icon-192.png", sizes: "192x192", type: "image/png" },
       { src: "/icon-512.png", sizes: "512x512", type: "image/png" },
