@@ -2,32 +2,32 @@ import { caseStudies } from "@/content/caseStudies";
 import { roles, schools } from "@/content/experience";
 import { neetter, roomalize, site } from "@/content/site";
 
-import { ArrowRight, ArrowUpRight, DocumentIcon, MailIcon } from "./Icons";
+import { ArrowRight, ArrowUpRight, WithArrow } from "./Icons";
 
-/** Resume, LinkedIn, Email, GitHub: the same four everywhere. */
-export function ContactRow() {
+/** Resume, LinkedIn, Email, GitHub: the same four everywhere. A row of joined
+ *  cells, or, with `stack`, a column of them. */
+export function ContactRow({ stack = false }: { stack?: boolean }) {
   return (
-    <ul className="contact-row" aria-label="Contact and links">
+    <ul className={stack ? "cells cells--stack" : "cells"} aria-label="Contact and links">
       <li>
-        <a className="pill pill--primary" href="/cv/">
-          <DocumentIcon />
+        <a className="cell cell--solid" href="/cv/">
           Resume
+          <ArrowRight />
         </a>
       </li>
       <li>
-        <a className="pill" href={site.linkedin}>
+        <a className="cell" href={site.linkedin}>
           LinkedIn
           <ArrowUpRight />
         </a>
       </li>
       <li>
-        <a className="pill" href={`mailto:${site.email}`}>
-          <MailIcon />
+        <a className="cell" href={`mailto:${site.email}`}>
           Email
         </a>
       </li>
       <li>
-        <a className="pill" href={site.github}>
+        <a className="cell" href={site.github}>
           GitHub
           <ArrowUpRight />
         </a>
@@ -36,31 +36,28 @@ export function ContactRow() {
   );
 }
 
-/** The three case studies as cards. The first, club events, spans the row
- *  and says what each half covers. */
-export function CaseStudyCards({ headingLevel = 3 }: { headingLevel?: 2 | 3 }) {
+const two = (i: number) => String(i + 1).padStart(2, "0");
+
+/** The three case studies as a numbered index. The first, club events, leads
+ *  and says what each half covers. Each row is one link. */
+export function CaseStudyIndex({ headingLevel = 3 }: { headingLevel?: 2 | 3 }) {
   const Heading = headingLevel === 2 ? "h2" : "h3";
   return (
-    <ul className="cards">
+    <ol className="index">
       {caseStudies.map((study, i) => (
-        <li key={study.slug}>
-          <article className={i === 0 ? "card card--featured" : "card"}>
-            <div className="card-main">
-              <Heading className="card-title">
-                <a href={study.href}>
-                  {study.title}
-                  <ArrowRight />
-                </a>
-              </Heading>
-              <p>{study.summary}</p>
-              <ul className="tags" aria-label="Covers">
-                {study.covers.map((c) => (
-                  <li key={c}>{c}</li>
-                ))}
-              </ul>
-            </div>
+        <li key={study.slug} className={i === 0 ? "index-row index-row--lead" : "index-row"}>
+          <span className="index-num" aria-hidden="true">
+            {two(i)}
+          </span>
+          <div className="index-main">
+            <Heading className="index-title">
+              <a className="row-link" href={study.href}>
+                <WithArrow text={study.title} />
+              </a>
+            </Heading>
+            <p className="index-summary">{study.summary}</p>
             {i === 0 && (
-              <dl className="card-halves">
+              <dl className="index-halves">
                 <div>
                   <dt>Product</dt>
                   <dd>{study.product}</dd>
@@ -71,30 +68,41 @@ export function CaseStudyCards({ headingLevel = 3 }: { headingLevel?: 2 | 3 }) {
                 </div>
               </dl>
             )}
-          </article>
+            <ul className="tags" aria-label="Covers">
+              {study.covers.map((c) => (
+                <li key={c}>{c}</li>
+              ))}
+            </ul>
+          </div>
         </li>
       ))}
-    </ul>
+    </ol>
   );
 }
 
-/** The case studies as a list for an entry page, each linking to one half. */
+/** The case studies as an index for an entry page, each row linking to one half. */
 export function CaseStudyEntries({ half }: { half: "product" | "engineering" }) {
   return (
-    <ul className="entries">
-      {caseStudies.map((study) => (
-        <li key={study.slug} className="entry">
-          <h3 className="entry-title">{study.title}</h3>
-          <div className="entry-body">
-            <p>{half === "product" ? study.product : study.engineering}</p>
-            <a className="text-link" href={`${study.href}#${half}`}>
-              {half === "product" ? "Read the product side" : "Read the engineering side"}
-              <ArrowRight />
+    <ol className="index">
+      {caseStudies.map((study, i) => (
+        <li key={study.slug} className="index-row">
+          <span className="index-num" aria-hidden="true">
+            {two(i)}
+          </span>
+          <div className="index-main">
+            <h3 className="index-title">{study.title}</h3>
+            <p className="index-summary">
+              {half === "product" ? study.product : study.engineering}
+            </p>
+            <a className="text-link row-link" href={`${study.href}#${half}`}>
+              <WithArrow
+                text={half === "product" ? "Read the product side" : "Read the engineering side"}
+              />
             </a>
           </div>
         </li>
       ))}
-    </ul>
+    </ol>
   );
 }
 
@@ -118,13 +126,11 @@ export function ProjectList({ headingLevel = 3 }: { headingLevel?: 2 | 3 }) {
         <p>
           {neetter.oneLine} {neetter.live}
         </p>
-        <p className="meta">
-          Founder · Product &amp; Engineering · {neetter.dates}
-        </p>
+        <p className="meta">Founder · Product &amp; Engineering · {neetter.dates}</p>
         <p className="meta">{neetter.stack}</p>
         <a className="text-link" href={neetter.url}>
           neetter.com
-          <ArrowUpRight className="arrow" />
+          <ArrowUpRight />
         </a>
       </li>
       <li className="project">
@@ -145,11 +151,11 @@ export function ProjectList({ headingLevel = 3 }: { headingLevel?: 2 | 3 }) {
         <p className="inline-links">
           <a className="text-link" href={roomalize.url}>
             roomalize.vercel.app
-            <ArrowUpRight className="arrow" />
+            <ArrowUpRight />
           </a>
           <a className="text-link" href={roomalize.repo}>
             Source on GitHub
-            <ArrowUpRight className="arrow" />
+            <ArrowUpRight />
           </a>
         </p>
       </li>

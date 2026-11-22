@@ -1,6 +1,6 @@
 import { caseStudies } from "@/content/caseStudies";
 
-import { ArrowLeft, ArrowRight } from "./Icons";
+import { ArrowDown, ArrowLeft, ArrowRight, WithArrow } from "./Icons";
 
 /** The top of a case study: title, the one-paragraph version, a few facts,
  *  and the two halves to jump to. */
@@ -21,15 +21,17 @@ export function StudyHead({
       </a>
       <h1 className="h1">{title}</h1>
       <p className="lede">{lede}</p>
-      <ul className="jump" aria-label="Jump to">
+      <ul className="cells jump" aria-label="Jump to">
         <li>
-          <a className="pill" href="#product">
+          <a className="cell" href="#product">
             Product
+            <ArrowDown />
           </a>
         </li>
         <li>
-          <a className="pill" href="#engineering">
+          <a className="cell" href="#engineering">
             Engineering
+            <ArrowDown />
           </a>
         </li>
       </ul>
@@ -87,14 +89,13 @@ export function NextUp({ slug }: { slug: string }) {
   return (
     <nav className="next-up" aria-label="More">
       <div>
-        <p className="meta">Next case study</p>
-        <a className="text-link" href={next.href}>
-          {next.title}
-          <ArrowRight />
+        <p className="label">Next case study</p>
+        <a className="next-link" href={next.href}>
+          <WithArrow text={next.title} />
         </a>
       </div>
       <div>
-        <p className="meta">All three, by half</p>
+        <p className="label">All three, by half</p>
         <p className="inline-links">
           <a className="text-link" href="/product/">
             Product

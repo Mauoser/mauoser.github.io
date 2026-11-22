@@ -1,5 +1,3 @@
-import { MoonIcon, SunIcon } from "./Icons";
-
 /**
  * One button: dark theme on or off. It needs no React: the inline script in
  * the layout's <head> applies a saved choice before the first paint (so the
@@ -7,13 +5,14 @@ import { MoonIcon, SunIcon } from "./Icons";
  * aria-pressed true to what is showing. So it works the moment the page draws,
  * before any JavaScript bundle has loaded. With no choice saved, the site
  * follows the operating system; choosing what the system already shows clears
- * the choice. Both icons are in the markup and CSS shows the right one.
+ * the choice. It reads as a checkbox: the word "Dark" and a square that CSS
+ * fills while the dark theme shows.
  */
 export function ThemeToggle() {
   return (
     <button type="button" className="theme-toggle" aria-label="Dark theme" suppressHydrationWarning>
-      <MoonIcon />
-      <SunIcon />
+      <span className="toggle-box" aria-hidden="true" />
+      <span aria-hidden="true">Dark</span>
     </button>
   );
 }
