@@ -11,7 +11,7 @@ export const site = {
   description:
     "Rei Zhang founded Neetter, a social network for gamers, and takes products from user research to shipped code, across product management and software engineering.",
   location:
-    "Based in Boston. Canadian citizen, open to relocating to or working remotely in Canada.",
+    "Based in Boston. Canadian citizen, open to relocating to or working remotely in Canada or the US.",
   email: "zhang.l5@northeastern.edu",
   linkedin: "https://www.linkedin.com/in/zenrei/",
   github: "https://github.com/Mauoser",
